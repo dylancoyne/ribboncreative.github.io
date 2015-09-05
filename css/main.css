@@ -238,13 +238,7 @@ a:focus {
     vertical-align: middle;
 }
 
-.intro img{
-margin:0 auto;
-}
-
 .intro .intro-body .brand-heading {
-    font-size: 40px;
-    text-indent:-5553px;
     -moz-animation: reveal-banner 1s 0.25s ease-in-out;
 	-webkit-animation: reveal-banner 1s 0.25s ease-in-out;
 	-ms-animation: reveal-banner 1s 0.25s ease-in-out;
@@ -266,11 +260,7 @@ margin:0 auto;
         height: 100%;
         padding: 0;
     }
-
-    .intro .intro-body .brand-heading {
-        font-size: 100px;
-    }
-
+    
     .intro .intro-body .intro-text {
         font-size: 26px;
     }
