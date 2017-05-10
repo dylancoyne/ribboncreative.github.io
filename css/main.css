@@ -32,7 +32,7 @@ h6 {
 }
 
 h2 {
-	font-family: tex_gyre_bonumregular, "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif;
+	font-family: 'tex_gyre_bonumregular', "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif;
 	font-size: 3.4em;
 	margin: 0 0 40px;
 	color:#3d3d3d;
