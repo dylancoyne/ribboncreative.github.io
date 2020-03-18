@@ -201,6 +201,38 @@ a:focus {
 		}
 	}
 
+
+/* Portrait phones and smaller */
+@media(max-width:480px) {
+	.intro h2 {
+		margin-top:60px;
+
+		}
+	
+	h2 {
+		font-size: 1.6em;
+		line-height: 40px;
+
+		}
+	svg.img-responsive.logo {
+		height: 54px;
+		margin: 4px 18px;
+		width: 131px;
+		}
+		
+	.fa {
+	margin-top: 10px;
+		}
+	.navbar-custom .nav li.active a {
+	color: #FF807E;
+	background-color: #252A32;
+		}		
+
+}
+
+
+
+
 @media(min-width:768px) {
 
 svg.img-responsive.logo {
@@ -592,28 +624,5 @@ body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
 
-/* Portrait phones and smaller */
-@media (max-width: 480px) {
-	h2 {
-		font-size: 2em;
-		line-height: 40px;
-		margin-top: 110px;
 
-		}
-	svg.img-responsive.logo {
-		height: 54px;
-		margin: 4px 18px;
-		width: 131px;
-		}
-		
-	.fa {
-	margin-top: 10px;
-		}
-	.navbar-custom .nav li.active a {
-	color: #FF807E;
-	background-color: #252A32;
-		}
-		
-
-}
 
