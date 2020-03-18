@@ -112,7 +112,7 @@ a:focus {
         padding: 20px 0;
         border-bottom: 0;
         letter-spacing: 1px;
-        background-color: rgba(250,251,251,0.96);
+        background-color: #fafbfb;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -135,9 +135,9 @@ a:focus {
 }
 
 .navbar-custom .nav li a:hover {
-    outline: 0;
-    color: rgba(255,255,255,.8);
-    background-color: transparent;
+	outline: 0;
+	color: rgba(0,0,0,.3);
+	background-color: transparent;
 }
 
 .navbar-custom .nav li a:focus,
@@ -146,61 +146,12 @@ a:focus {
     background-color: transparent;
 }
 
-.navbar-custom .nav li.active {
-    outline: 0;
+.navbar-custom .nav li.active, .navbar-custom .nav li.active a:hover, .navbar-custom .nav li.active a{
+	background-color: rgba(0,0,0,.1);
+	transition: none;
+	color: rgba(0,0,0);
+	outline: none;
 }
-
-.navbar-custom .nav li.active a {
-    background-color: rgba(255,255,255,.3);
-}
-
-.navbar-custom .nav li.active a:hover {
-    color: #fff;
-}
-
-
-/* Banner */
-
-	@-moz-keyframes reveal-banner {
-		0% {
-			opacity: 0;
-		}
-
-		100% {
-			opacity: 1;
-		}
-	}
-
-	@-webkit-keyframes reveal-banner {
-		0% {
-			opacity: 0;
-		}
-
-		100% {
-			opacity: 1;
-		}
-	}
-
-	@-ms-keyframes reveal-banner {
-		0% {
-			opacity: 0;
-		}
-
-		100% {
-			opacity: 1;
-		}
-	}
-
-	@keyframes reveal-banner {
-		0% {
-			opacity: 0;
-		}
-
-		100% {
-			opacity: 1;
-		}
-	}
-
 
 /* Portrait phones and smaller */
 @media(max-width:480px) {
@@ -261,24 +212,6 @@ svg.img-responsive.logo {
 
 .navbar-custom.top-nav-collapse{
 	background-color: #fafbfb;
-}
-
-
-.navbar-custom.top-nav-collapse .nav li.active a, body#page-top.page .navbar-custom.top-nav-collapse .nav li.active a:hover {
-}
-
-.navbar-custom .nav li.active a, body#page-top.page .navbar-custom .nav li.active a:hover {
-	background-color: rgba(0,0,0,.1);
-	transition: none;
-	color: rgba(0,0,0);
-	outline: none;
-	
-}
-
-.navbar-custom .nav li a:hover {
-	outline: 0;
-	color: rgba(0,0,0,.3);
-	background-color: transparent;
 }
 
 .navbar-custom.top-nav-collapse .nav li a:hover {
