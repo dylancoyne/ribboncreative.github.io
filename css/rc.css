@@ -54,6 +54,10 @@ header {
 	padding-top:16rem;
 }
 
+header.home-page {
+	overflow:hidden;
+}
+
 header.home-page img {
 	margin-top: -260px !important;
 }
@@ -122,7 +126,6 @@ a:focus {
 }
 
 .btn {
-	
 	border-radius: 32px;
 }
 
@@ -152,8 +155,6 @@ a:focus {
 	font-size:1.6em;
 }
 
-
-
 section {
 	padding: 150px 0;
 }
@@ -173,11 +174,10 @@ header {
 header.page{
 	background-color: #fff;
 	position: relative;
-	height: 600px;
 	overflow: hidden;
 }
 
-.header__bg {
+.header-bg {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -189,8 +189,6 @@ header.page{
   transform: skewY(13deg);
   transform-origin: top right;
 }
-
-
 
 .navbar {
 	padding: 2rem 1rem;
@@ -241,13 +239,17 @@ li.nav-item a {
 	background: none;
 }
 
+.featured-projects li.breadcrumb-item {
+	margin-right:0;
+}
+
 .breadcrumb-item.active {
 	color: #A8AAAD;
 }
 
 .breadcrumb-item+.breadcrumb-item::before {
 	display: inline-block;
-	padding-right: .5rem;
+	padding-right: 0.5rem;
 	color: #A8AAAD;
 	content: "/";
 }
@@ -412,37 +414,7 @@ footer p {
 }
 
 
-/* Portrait phones and smaller */
-@media(max-width:480px) {
 
-	.navbar {
-		padding: 1rem;
-		background-color: #F9F9FF;
-	}
-	
-	.navbar svg {
-		height: 54px;
-		width: 131px;
-	}
-	header h2 {
-		font-size: 1.4em;
-		line-height: 44px;
-		padding-top:7rem;
-
-		}
-	header img {
-		width: 356px;
-	}
-	header .col-lg-3 {
-		background-color:#252A32;
-	}
-	footer .copyright {
-		padding-top: 30px;
-		font-size: 16px;
-		line-height: 1.8em;
-	}
-
-}
 
 @media(max-width:768px) {
 	section {
@@ -493,20 +465,68 @@ footer p {
 
 	}
 	header.home-page img {
-		width: 356px;
+		width: 378px;
 		float: right;
-		padding-top: 260px;
+		height: 316px;
+		margin-top: 0px !important;
 	}
-	header .col-lg-3 {
+	header.home-page .col-lg-3 {
 		background-color:#252A32;
+		margin: 2.5rem 0;
 	}
-	
+
 	.text-lrg {
 	font-size: 1.2em;
 	}
 	
 	footer .copyright {
     padding-top: 30px;
+	}
+
+}
+
+/* Portrait phones and smaller */
+@media(max-width:480px) {
+
+	.navbar {
+		padding: 1rem;
+		background-color: #F9F9FF;
+	}
+	
+	.navbar svg {
+		height: 54px;
+		width: 131px;
+	}
+	header {
+		padding-top:2rem;
+	}
+	
+	header h2 {
+		font-size: 1.4em;
+		line-height: 44px;
+		padding-top:7rem;
+
+		}
+	header.home-page img {
+		margin: 0px !important;
+	}
+	
+	header.home-page .col-lg-3 {
+		background-color:#252A32;
+		margin: 0;
+	}
+	header.page .projects-page{
+		height:440px;
+	}
+	
+	.projects-page .header-bg {
+		height: 70%;
+
+	}
+	footer .copyright {
+		padding-top: 30px;
+		font-size: 16px;
+		line-height: 1.8em;
 	}
 
 }
@@ -533,6 +553,7 @@ footer p {
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
+
 
 
 }
