@@ -72,6 +72,7 @@ header.page.projects-page h2{
 h3 {
 	font-family: 'tex_gyre_bonumregular', "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif;
 	font-weight:600;
+	font-weight:bolder;
 	color: #252A32;
 	font-size: 42px;
 	margin-bottom: 26px;
