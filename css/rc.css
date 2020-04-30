@@ -413,7 +413,17 @@ footer p {
     margin: 0;
 }
 
+@media(max-width:1024px) {
 
+header.home-page .col-lg-3 {
+		
+	}
+	
+	header.home-page img {
+		
+	}
+
+}
 
 
 @media(max-width:768px) {
