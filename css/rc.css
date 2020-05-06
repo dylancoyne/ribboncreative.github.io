@@ -561,7 +561,20 @@ footer p {
 		height: 70%;
 
 	}
+	.breadcrumb {
+		font-size: 16px;
+		padding: .75rem 1rem;
+		margin-bottom: 1rem;
+	}
 	
+	.breadcrumb-item+.breadcrumb-item {
+		padding-left: 0.25rem;
+	}
+	
+	.breadcrumb-item+.breadcrumb-item::before {
+		display: inline-block;
+		padding-right: 0.25rem;
+	}
 	
 	.projects-section {
 		background-color: #fff;
@@ -569,7 +582,11 @@ footer p {
 	}
 	
 
+
+	.single-projects .row {
+		padding-bottom: 0px !important;
 	
+	}
 	.img-link {
 		padding-top: 1rem;
 		padding-bottom: 1rem;
