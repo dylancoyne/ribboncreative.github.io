@@ -62,18 +62,6 @@ header.home-page {
     background-position: 65vw center;
 }
 
-
-/*header.home-page img {
-	margin-top: -260px !important;
-}
-
-header.page.projects-page h2{
-	visibility: hidden;
-	line-height: 0;
-
-
-}*/
-
 h3 {
 	font-family: 'tex_gyre_bonumregular', "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif;
 	font-weight:bolder;
@@ -469,8 +457,7 @@ footer p {
 		width: 131px;
 	}
 	
-	svg
-	header h2 {
+	svg header h2 {
 		font-size: 1.4em;
 		line-height: 44px;
 		padding-top:7rem;
@@ -489,6 +476,13 @@ footer p {
 		background-position: left bottom;
 		padding-bottom: 43rem;
     
+    }
+    
+    .about-story svg{
+		padding:0;
+
+
+}
     }
 
 	.text-lrg {
@@ -521,6 +515,7 @@ footer p {
 		height: 54px;
 		width: 131px;
 	}
+	
 	header {
 		padding-top:1rem;
 	}
