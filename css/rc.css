@@ -470,34 +470,27 @@ footer p {
 		padding-top:7rem;
 
 	}
-	header.home-page img {
-		width: 378px;
-		float: right;
-		height: 316px;
-		margin-top: 0px !important;
-	}
 	
+	header {
+	padding-top: 11rem;
+	}	
 	
 	header.home-page {
-	overflow: hidden;
-    background-image: url('../img/dylan@2x.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: left bottom;
-    padding-bottom: 37rem;
+		overflow: hidden;
+		background-image: url('../img/dylan@2x.jpg');
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: left bottom;
+		padding-bottom: 43rem;
     
     }
-	header.home-page .col-lg-3 {
-		background-color:#252A32;
-		margin: 2.5rem 0;
-	}
 
 	.text-lrg {
-	font-size: 1.2em;
+		font-size: 1.2em;
 	}
 	
 	footer .copyright {
-    padding-top: 30px;
+		padding-top: 30px;
 	}
 
 }
@@ -523,7 +516,7 @@ footer p {
 		width: 131px;
 	}
 	header {
-		padding-top:2rem;
+		padding-top:1rem;
 	}
 	
 	header h2 {
@@ -531,14 +524,14 @@ footer p {
 		line-height: 44px;
 		padding-top:7rem;
 
-		}
+	}
 	header.home-page {
-	overflow: hidden;
-    background-image: url('../img/dylan@2x.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: left bottom;
-    padding-bottom: 17rem;
+		overflow: hidden;
+		background-image: url('../img/dylan@2x.jpg');
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: left bottom;
+		padding-bottom: 23rem;
     
     }
 	header.page .projects-page{
