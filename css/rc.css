@@ -55,10 +55,15 @@ header {
 }
 
 header.home-page {
-	overflow:hidden;
+	overflow: hidden;
+    background-image: url('../img/dylan@2x.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 65vw center;
 }
 
-header.home-page img {
+
+/*header.home-page img {
 	margin-top: -260px !important;
 }
 
@@ -67,7 +72,7 @@ header.page.projects-page h2{
 	line-height: 0;
 
 
-}
+}*/
 
 h3 {
 	font-family: 'tex_gyre_bonumregular', "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif;
@@ -413,17 +418,7 @@ footer p {
     margin: 0;
 }
 
-@media(max-width:1024px) {
 
-header.home-page .col-lg-3 {
-		
-	}
-	
-	header.home-page img {
-		
-	}
-
-}
 
 
 @media(max-width:768px) {
@@ -481,6 +476,17 @@ header.home-page .col-lg-3 {
 		height: 316px;
 		margin-top: 0px !important;
 	}
+	
+	
+	header.home-page {
+	overflow: hidden;
+    background-image: url('../img/dylan@2x.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    padding-bottom: 37rem;
+    
+    }
 	header.home-page .col-lg-3 {
 		background-color:#252A32;
 		margin: 2.5rem 0;
@@ -526,14 +532,15 @@ header.home-page .col-lg-3 {
 		padding-top:7rem;
 
 		}
-	header.home-page img {
-		margin: 0px !important;
-	}
-	
-	header.home-page .col-lg-3 {
-		background-color:#252A32;
-		margin: 0;
-	}
+	header.home-page {
+	overflow: hidden;
+    background-image: url('../img/dylan@2x.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    padding-bottom: 17rem;
+    
+    }
 	header.page .projects-page{
 		height:440px;
 	}
