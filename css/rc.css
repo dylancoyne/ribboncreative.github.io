@@ -416,6 +416,11 @@ display: inline-block;
 	font-weight: 600;
 }
 
+.archive-img {
+padding-top: 114px !important;
+
+}
+
 
 footer {
     padding: 44px 0;
