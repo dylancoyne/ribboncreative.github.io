@@ -378,7 +378,12 @@ display: inline-block;
 }
 
 section.single-projects {
-padding-top: 50px;
+	padding-top: 50px;
+
+}
+
+.archive-img {
+	padding-top: 114px !important;
 
 }
 
@@ -420,12 +425,6 @@ padding-top: 50px;
 	font-size: 14px;
 	font-weight: 600;
 }
-
-.archive-img {
-padding-top: 114px !important;
-
-}
-
 
 footer {
     padding: 44px 0;
@@ -590,6 +589,13 @@ footer p {
 		background-color: #fff;
 		padding: 0;
 	}
+	
+	.archive-img {
+		padding-top: 64px !important;
+		width: 70%;
+
+	}
+
 	
 
 
