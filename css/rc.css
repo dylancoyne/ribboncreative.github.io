@@ -377,6 +377,11 @@ display: inline-block;
 	border-bottom-right-radius: 32px;
 }
 
+section.single-projects {
+padding-top: 50px;
+
+}
+
 
 .page-link {
 	position: relative;
