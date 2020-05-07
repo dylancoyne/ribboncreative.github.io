@@ -421,6 +421,13 @@ padding-top: 114px !important;
 
 }
 
+.vertical-center {
+  min-height: 50%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 50vh; /* These two lines are counted as one :-)       */
+  display: flex;
+  align-items: center;
+}
+
 
 footer {
     padding: 44px 0;
