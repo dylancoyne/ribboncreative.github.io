@@ -59,7 +59,7 @@ header.home-page {
     background-image: url('../img/dylan@2x.png');
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: 65vw center;
+    background-position: 61vw center;
 }
 
 header.page.projects-page h2{
@@ -430,18 +430,31 @@ footer p {
     margin: 0;
 }
 
+	ul.navbar-nav.mx-auto {
+		width: 60%;
+	
+	
+	}
+
 @media(max-width : 1024px) {
 
 	.projects-page .header-bg {
-			height: 80%;
+		height: 80%;
 
 		}
+		
+		ul.navbar-nav.mx-auto {
+		width: 70%;
+	
+	
+	}
+
 	
 }
 
 
 
-@media(max-width:768px) {
+@media(max-width:768px) and (min-width:992px) {
 	section {
 		padding: 60px 0;
 	}
@@ -462,7 +475,7 @@ footer p {
 	
 	}
 	
-	
+
 	
 	.navbar-light .navbar-toggler {
 		color: #252A32;
@@ -513,6 +526,13 @@ footer p {
     
     .about-story svg{
 		padding:0;
+		width:80%
+
+    }
+    
+    .about-story .svg-sm{
+		padding:0;
+		width:63%
 
     }
 
