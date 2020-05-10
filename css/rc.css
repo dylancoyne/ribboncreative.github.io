@@ -569,7 +569,7 @@ footer p {
 		background-size: contain;
 		background-repeat: no-repeat;
 		background-position: left bottom;
-		padding-bottom: 19rem;
+		padding-bottom: 21rem;
     
     }
 	header.page .projects-page{
@@ -654,6 +654,26 @@ footer p {
 		font-size: 16px;
 		line-height: 1.8em;
 	}
+
+}
+
+/* Portrait phones and smaller */
+@media(max-width:320px) {
+
+header h2 {
+		font-size: 1.1em;
+		line-height: 38px;
+		padding-top: 7rem;
+}
+	header.home-page {
+		overflow: hidden;
+		background-image: url('../img/dylan@2x.jpg');
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: left bottom;
+		padding-bottom: 17rem;
+    
+    }
 
 }
 
