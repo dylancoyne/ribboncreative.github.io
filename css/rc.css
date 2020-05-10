@@ -475,7 +475,10 @@ footer p {
 	
 	}
 	
-
+	.archive-img {
+	padding-top: 64px !important;
+	width: 70%;
+	}
 
 	
 	.navbar-light .navbar-toggler {
@@ -646,11 +649,7 @@ footer p {
 		font-size: 14px;
 	}
 	
-	.archive-img {
-		padding-top: 64px !important;
-		width: 70%;
 
-	}
 
 	svg.projects-title {
 		width:280px;
