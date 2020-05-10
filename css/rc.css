@@ -277,28 +277,28 @@ text-decoration: none;
 	background-color: #F9F9FF;
 }
 
-.projects-section p {
-	padding:22px 0 0;
+
+
+section.first-project {
+	padding-top: 0px;
 }
 
-
-
-.projects-section ul, .featured-projects ul {
+.projects-section ul, .projects ul {
 	float:left;
 	margin:0; 
 	padding:0; 
 	list-style:none;
 	line-height:10px;
 }
-.projects-section li, .featured-projects li {
+.projects-section li, .projects li {
 	float:left;
 	margin-right: 18px;
-	margin-top: 16px;
 	color: #3149FE;
 	font-size:16px;
+	padding-top: 16px;
 
 }
-.projects-section li:after, .featured-projects li:after {
+.projects-section li:after, .projects li:after {
 
 display: inline-block;
 	width: 8px;
@@ -377,11 +377,6 @@ display: inline-block;
 	border-bottom-right-radius: 32px;
 }
 
-section.single-projects {
-	padding-top: 50px;
-
-}
-
 .archive-img {
 	padding-top: 114px !important;
 
@@ -435,6 +430,14 @@ footer p {
     margin: 0;
 }
 
+@media(max-width : 1024px) {
+
+	.projects-page .header-bg {
+			height: 80%;
+
+		}
+	
+}
 
 
 
@@ -449,7 +452,6 @@ footer p {
 	
 	h3{
 		font-size: 38px;
-		margin-bottom: 2px;
 		letter-spacing: 0px;
 		text-align: left;
 	
@@ -459,6 +461,8 @@ footer p {
 		 color:#14171b;
 	
 	}
+	
+	
 	
 	.navbar-light .navbar-toggler {
 		color: #252A32;
@@ -544,7 +548,7 @@ footer p {
 	}
 	
 	header {
-		padding-top:1rem;
+		padding-top:0px;
 	}
 	
 	header h2 {
@@ -553,13 +557,19 @@ footer p {
 		padding-top:7rem;
 
 	}
+	
+	h3 {
+	
+	line-height: 1.3em;
+	}
+	
 	header.home-page {
 		overflow: hidden;
 		background-image: url('../img/dylan@2x.jpg');
 		background-size: contain;
 		background-repeat: no-repeat;
 		background-position: left bottom;
-		padding-bottom: 23rem;
+		padding-bottom: 24rem;
     
     }
 	header.page .projects-page{
@@ -570,10 +580,9 @@ footer p {
 		height: 70%;
 
 	}
+	
 	.breadcrumb {
-		font-size: 16px;
-		padding: .75rem 1rem;
-		margin-bottom: 1rem;
+		font-size: 14px;
 	}
 	
 	.breadcrumb-item+.breadcrumb-item {
@@ -585,9 +594,39 @@ footer p {
 		padding-right: 0.25rem;
 	}
 	
+	header.page.projects-page {
+		display: none;
+	
+	}
+	
+	
+	section.first-project, section.single-projects {
+		padding-top: 88px;
+	}
 	.projects-section {
 		background-color: #fff;
 		padding: 0;
+	}
+	
+	.projects li.breadcrumb-item {
+		margin-right: 0;
+		padding-top: 0;
+		font-size: 14px;
+	}
+	
+
+	.projects p {
+		display:none;
+
+	}
+	
+	.projects-section li, .projects li {
+		float: left;
+		margin-right: 18px;
+		color: #3149FE;
+		font-size: 14px;
+		padding-top: 12px;
+		font-size: 14px;
 	}
 	
 	.archive-img {
@@ -596,24 +635,18 @@ footer p {
 
 	}
 
+	svg.projects-title {
+	width:280px;
+	}
 	
-
-
 	.single-projects .row {
 		padding-bottom: 0px !important;
 	
 	}
-	.img-link {
-		padding-top: 1rem;
-		padding-bottom: 1rem;
-	}
 
-	.img-link a.btn{
-		display:none;
-	}
 	
 	hr {
-	visibility: inherit;
+		visibility: inherit;
 	}
 	
 	footer .copyright {
