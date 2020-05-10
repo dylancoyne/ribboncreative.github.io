@@ -266,18 +266,18 @@ hr {
 }
 
 .figure-caption {
-font-size: 70%;
+	font-size: 70%;
 }
 
 .figure-caption a{
-text-decoration: none;
+	text-decoration: none;
 }
 
-.projects-section {
-	background-color: #F9F9FF;
+.bg-light {
+
+	background-color: #F9F9FF !important;
+
 }
-
-
 
 section.first-project {
 	padding-top: 0px;
@@ -636,7 +636,7 @@ footer p {
 	}
 
 	svg.projects-title {
-	width:280px;
+		width:280px;
 	}
 	
 	.single-projects .row {
@@ -660,11 +660,11 @@ footer p {
 /* Portrait phones and smaller */
 @media(max-width:320px) {
 
-header h2 {
-		font-size: 1.1em;
-		line-height: 38px;
-		padding-top: 7rem;
-}
+	header h2 {
+			font-size: 1.1em;
+			line-height: 38px;
+			padding-top: 7rem;
+	}
 	header.home-page {
 		overflow: hidden;
 		background-image: url('../img/dylan@2x.jpg');
