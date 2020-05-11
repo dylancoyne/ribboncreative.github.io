@@ -240,6 +240,7 @@ li.nav-item a {
 
 .breadcrumb {
 	background: none;
+	font-size:14px;
 }
 
 .featured-projects li.breadcrumb-item {
@@ -290,7 +291,7 @@ section.first-project {
 	list-style:none;
 	line-height:10px;
 }
-.projects-section li, .projects li {
+.tags li {
 	float:left;
 	margin-right: 18px;
 	color: #FF807E;
@@ -377,12 +378,6 @@ display: inline-block;
 	border-bottom-right-radius: 32px;
 }
 
-.archive-img {
-	padding-top: 114px !important;
-
-}
-
-
 .page-link {
 	position: relative;
 	display: block;
@@ -456,7 +451,7 @@ footer p {
 
 @media(max-width:992px) {
 	section {
-		padding: 60px 0;
+		padding: 88px 0;
 	}
 
 	.about-section .row.about-story {
@@ -478,6 +473,8 @@ footer p {
 	.archive-img {
 		width: 70%;
 	}
+	
+
 
 	
 	.navbar-light .navbar-toggler {
@@ -639,15 +636,7 @@ footer p {
 
 	}
 	
-	.projects-section li, .projects li {
-		float: left;
-		margin-right: 18px;
-		color: #3149FE;
-		font-size: 14px;
-		padding-top: 12px;
-		font-size: 14px;
-	}
-	
+
 
 
 	svg.projects-title {
