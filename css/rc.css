@@ -9,7 +9,7 @@ body {
     font-size: 18px;
     color: #252A32;
     background-color: #fff;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.04em;
 }
 html {
     width: 100%;
@@ -45,8 +45,8 @@ h6 a {
 
 h2 {
 	font-family: 'didact_gothicregular',"Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-size: 38px;
-    line-height: 60px;
+	font-size: 36px;
+    line-height: 58px;
     text-shadow: rgba(0,0,0,.2) 0 0 1px;
     -webkit-font-smoothing: antialiased;
 }
@@ -194,7 +194,8 @@ header.page {
   position: relative;
   width: 360px;
   height: 540px;
-  /* margin: auto; */
+  margin: auto;
+  top:20px;
   border: 16px black solid;
   border-top-width: 60px;
   border-bottom-width: 0px;
