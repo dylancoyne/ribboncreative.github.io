@@ -9,7 +9,7 @@ body {
     font-size: 18px;
     color: #252A32;
     background-color: #fff;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.05em;
 }
 html {
     width: 100%;
@@ -45,9 +45,9 @@ h6 a {
 
 h2 {
 	font-family: 'didact_gothicregular',"Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-size: 36px;
-    line-height: 58px;
-    text-shadow: rgba(0,0,0,.2) 0 0 1px;
+	font-size: 34px;
+    line-height: 56px;
+    text-shadow: rgba(0,0,0,.5) 0 0 1px;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -56,7 +56,8 @@ h3 {
 	font-weight:bolder;
 	color: #252A32;
 	font-size: 36px;
-	margin-bottom: 26px;
+	margin-bottom: 24px;
+	text-shadow: rgba(0,0,0,.5) 0 0 1px;
 	text-align:left;
 }
 
@@ -169,6 +170,8 @@ overflow: hidden;
     font-size:16px;
     font-weight:600;
     text-decoration: none;
+    font-size: 18px;
+    text-shadow: rgba(0,0,0,.2) 0 0 1px;
    
 }
 
@@ -180,12 +183,23 @@ overflow: hidden;
 }
 
 
+
+
+
 /* Hero */
 
 
 header.page {
 	padding-top:16rem;
 	overflow:hidden;
+}
+
+header.about{
+	overflow: hidden;
+    background-image: url('../img/dylan-coyne@2x.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 54vw 16vh;
 }
 
 
@@ -562,11 +576,23 @@ footer p {
 /* Portrait phones and smaller */
 @media(max-width:480px) {
 
-.smartphone {
-    position: relative;
-    width: 340px;
-    height: 510px;
-}
+	.smartphone {
+		position: relative;
+		width: 340px;
+		height: 510px;
+	}
+	header.about {
+	overflow: hidden;
+    background-image: url(../img/dylan@2x.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    padding-bottom: 21rem;
+	
+	}
+	
+	
+	
 	.navbar-nav.navbar-center {
 		position: relative;
 		width:50%;
@@ -584,17 +610,17 @@ footer p {
 	
 	
 	.navbar svg {
-		height: 54px;
-		width: 131px;
+		height: 60%;
+    width: 80%;
 	}
 	
 	header.page {
-		padding-top:6em;
+		padding-top:8em;
 	}
 	
 	header h2 {
-	font-size: 28px;
-    line-height: 42px;
+	font-size: 24px;
+    line-height: 40px;
 
 	}
 	
