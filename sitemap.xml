@@ -9,38 +9,53 @@
 
 <url>
   <loc>https://ribboncreative.co.uk/</loc>
-  <lastmod>2020-09-24T08:45:29+00:00</lastmod>
+  <lastmod>2020-12-09T10:13:05+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://ribboncreative.co.uk/index.html</loc>
-  <lastmod>2020-09-24T08:45:29+00:00</lastmod>
+  <lastmod>2020-12-09T10:13:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://ribboncreative.co.uk/about.html</loc>
-  <lastmod>2020-09-24T08:45:29+00:00</lastmod>
+  <lastmod>2020-12-09T10:13:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://ribboncreative.co.uk/projects.html</loc>
-  <lastmod>2020-09-24T08:45:29+00:00</lastmod>
+  <lastmod>2020-12-09T10:13:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ribboncreative.co.uk/contact.html</loc>
+  <lastmod>2020-12-09T10:13:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://ribboncreative.co.uk/cv/dylan-coyne-cv.pdf</loc>
-  <lastmod>2020-09-24T08:45:29+00:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2020-12-09T10:13:05+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://ribboncreative.co.uk/virgin-datebar-portfolio-item.html</loc>
-  <lastmod>2020-09-24T08:45:29+00:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2020-12-09T10:13:05+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://ribboncreative.co.uk/penguin-books-portfolio-item.html</loc>
-  <lastmod>2020-09-24T08:45:29+00:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2020-12-09T10:13:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ribboncreative.co.uk/img/leon-design-critique.pdf</loc>
+  <lastmod>2020-12-09T10:13:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ribboncreative.co.uk/img/asc-styleguide.pdf</loc>
+  <lastmod>2020-12-09T10:13:05+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
