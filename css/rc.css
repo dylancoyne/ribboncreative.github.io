@@ -278,13 +278,13 @@ header.page.projects-page h2{
 }
 
 .breadcrumb-item.active {
-	color: #A8AAAD;
+	color: #727579;
 }
 
 .breadcrumb-item+.breadcrumb-item::before {
 	display: inline-block;
 	padding-right: 0.5rem;
-	color: #A8AAAD;
+	color: #727579;
 	content: "/";
 }
 
